@@ -23,7 +23,7 @@ if __name__ == "__main__":
         html = check_con("150.217.48.146", "8000","admin","akelsdvve292")
         if html:
             database.caricamento_database(addDati(html,database)) 
-            time.sleep(15)
+            time.sleep(30)
             
         else:
             print "----------"
