@@ -1,0 +1,9 @@
+08-02-2013 17:28
+  
+	inizialized name,
+	create the table 'icecast.db'
+	check the connection between pc and server 
+	put the the result of check connection in 'html'
+	if the html is valid insert data in database
+	auto-atop for 30s and restart
+	else the program auto-stop for 10s
