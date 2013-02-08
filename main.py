@@ -20,7 +20,7 @@ if __name__ == "__main__":
     database.crea_tabella()
     print "Registro su DB"
     while 1:    
-        html = check_con("150.217.48.146", "8000","admin","akelsdvve292")
+        html = check_con("insert server", "insert port","insert admin","insert password")
         if html:
             database.caricamento_database(addDati(html,database)) 
             time.sleep(30)
